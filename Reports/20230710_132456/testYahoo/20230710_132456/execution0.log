@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-10T13:24:59</date>
+  <millis>1688975699737</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/testYahoo</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">3</property>
+  <property name="name">testYahoo</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/testYahoo</property>
+</record>
+<record>
+  <date>2023-07-10T13:24:59</date>
+  <millis>1688975699757</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Tanya - LAPTOP-KOS4MB62</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">Tanya - LAPTOP-KOS4MB62</property>
+</record>
+<record>
+  <date>2023-07-10T13:24:59</date>
+  <millis>1688975699757</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2023-07-10T13:24:59</date>
+  <millis>1688975699758</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.35</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.1.35</property>
+</record>
+<record>
+  <date>2023-07-10T13:24:59</date>
+  <millis>1688975699758</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 8.6.5.208</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">8.6.5.208</property>
+</record>
+<record>
+  <date>2023-07-10T13:25:00</date>
+  <millis>1688975700107</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/validUserSignIn</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/validUserSignIn</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/validUserSignIn</property>
+  <property name="source">C:\Users\Tanya\git\androidYahooTest\Test Cases\validUserSignIn.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2023-07-10T13:25:00</date>
+  <millis>1688975700497</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : appPath = relativeToAbsolutePath(G_AppPath, getProjectDir())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">13</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Get full directory&apos;s path of android application</property>
+</record>
+<record>
+  <date>2023-07-10T13:25:01</date>
+  <millis>1688975701071</millis>
+  <sequence>8</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : appPath = relativeToAbsolutePath(G_AppPath, getProjectDir())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:25:01</date>
+  <millis>1688975701071</millis>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(appPath, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">14</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2023-07-10T13:25:02</date>
+  <millis>1688975702338</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Detected NodeJS location: &amp;quot;C:\Program Files\nodejs\node.exe&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:25:04</date>
+  <millis>1688975704027</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 61,038</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:25:59</date>
+  <millis>1688975759143</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = a425992f</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceId">a425992f</property>
+</record>
+<record>
+  <date>2023-07-10T13:25:59</date>
+  <millis>1688975759144</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = OnePlus EB2101 (Android 11)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">OnePlus EB2101 (Android 11)</property>
+</record>
+<record>
+  <date>2023-07-10T13:25:59</date>
+  <millis>1688975759145</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = EB2101</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceModel">EB2101</property>
+</record>
+<record>
+  <date>2023-07-10T13:25:59</date>
+  <millis>1688975759147</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = OnePlus</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceManufacturer">OnePlus</property>
+</record>
+<record>
+  <date>2023-07-10T13:25:59</date>
+  <millis>1688975759148</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2023-07-10T13:25:59</date>
+  <millis>1688975759149</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 11</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOSVersion">11</property>
+</record>
+<record>
+  <date>2023-07-10T13:25:59</date>
+  <millis>1688975759677</millis>
+  <sequence>23</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to start app at: &amp;apos;C:\Users\Tanya\git\androidYahooTest\androidapp\yahoo.apk&amp;apos; (Root cause: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &amp;apos;uiautomator2ServerLaunchTimeout&amp;apos; capability
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;LAPTOP-KOS4MB62&amp;apos;, ip: &amp;apos;192.168.1.35&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &amp;apos;uiautomator2ServerLaunchTimeout&amp;apos; capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;LAPTOP-KOS4MB62&amp;apos;, ip: &amp;apos;192.168.1.35&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: driver.version: SwipeableAndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.&amp;lt;init&amp;gt;(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.&amp;lt;init&amp;gt;(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at validUserSignIn.run(validUserSignIn:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688975696129.run(TempTestSuite1688975696129.groovy:36)
+Caused by: java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.&amp;lt;init&amp;gt;(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.&amp;lt;init&amp;gt;(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at Script1688972547631.run(Script1688972547631.groovy:14)
+	... 13 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &amp;apos;uiautomator2ServerLaunchTimeout&amp;apos; capability
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;LAPTOP-KOS4MB62&amp;apos;, ip: &amp;apos;192.168.1.35&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &amp;apos;uiautomator2ServerLaunchTimeout&amp;apos; capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 40 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.WebDriverException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &apos;uiautomator2ServerLaunchTimeout&apos; capability
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;LAPTOP-KOS4MB62&apos;, ip: &apos;192.168.1.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &apos;uiautomator2ServerLaunchTimeout&apos; capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.&lt;init&gt;(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at validUserSignIn.run(validUserSignIn:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688975696129.run(TempTestSuite1688975696129.groovy:36)
+</property>
+  <property name="failed.exception.message">An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &apos;uiautomator2ServerLaunchTimeout&apos; capability
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;LAPTOP-KOS4MB62&apos;, ip: &apos;192.168.1.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &apos;uiautomator2ServerLaunchTimeout&apos; capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)</property>
+</record>
+<record>
+  <date>2023-07-10T13:25:59</date>
+  <millis>1688975759689</millis>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(appPath, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:25:59</date>
+  <millis>1688975759692</millis>
+  <sequence>33</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/validUserSignIn FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app at: &amp;apos;C:\Users\Tanya\git\androidYahooTest\androidapp\yahoo.apk&amp;apos; (Root cause: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &amp;apos;uiautomator2ServerLaunchTimeout&amp;apos; capability
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;LAPTOP-KOS4MB62&amp;apos;, ip: &amp;apos;192.168.1.35&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &amp;apos;uiautomator2ServerLaunchTimeout&amp;apos; capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;LAPTOP-KOS4MB62&amp;apos;, ip: &amp;apos;192.168.1.35&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: driver.version: SwipeableAndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.&amp;lt;init&amp;gt;(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.&amp;lt;init&amp;gt;(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at validUserSignIn.run(validUserSignIn:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688975696129.run(TempTestSuite1688975696129.groovy:36)
+Caused by: java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.&amp;lt;init&amp;gt;(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.&amp;lt;init&amp;gt;(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at Script1688972547631.run(Script1688972547631.groovy:14)
+	... 13 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &amp;apos;uiautomator2ServerLaunchTimeout&amp;apos; capability
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;LAPTOP-KOS4MB62&amp;apos;, ip: &amp;apos;192.168.1.35&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &amp;apos;uiautomator2ServerLaunchTimeout&amp;apos; capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 40 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at validUserSignIn.run(validUserSignIn:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688975696129.run(TempTestSuite1688975696129.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &amp;apos;uiautomator2ServerLaunchTimeout&amp;apos; capability
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;LAPTOP-KOS4MB62&amp;apos;, ip: &amp;apos;192.168.1.35&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &amp;apos;uiautomator2ServerLaunchTimeout&amp;apos; capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;LAPTOP-KOS4MB62&amp;apos;, ip: &amp;apos;192.168.1.35&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: driver.version: SwipeableAndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.&amp;lt;init&amp;gt;(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.&amp;lt;init&amp;gt;(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.&amp;lt;init&amp;gt;(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.&amp;lt;init&amp;gt;(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at Script1688972547631.run(Script1688972547631.groovy:14)
+	... 13 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &amp;apos;uiautomator2ServerLaunchTimeout&amp;apos; capability
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;LAPTOP-KOS4MB62&amp;apos;, ip: &amp;apos;192.168.1.35&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &amp;apos;uiautomator2ServerLaunchTimeout&amp;apos; capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.&amp;lt;init&amp;gt;(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.&amp;lt;init&amp;gt;(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at validUserSignIn.run(validUserSignIn:14)
+	... 13 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to start app at: 'C:\Users\Tanya\git\androidYahooTest\androidapp\yahoo.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-KOS4MB62', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-KOS4MB62', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: SwipeableAndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.&lt;init&gt;(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at validUserSignIn.run(validUserSignIn:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688975696129.run(TempTestSuite1688975696129.groovy:36)
+Caused by: java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.&lt;init&gt;(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at Script1688972547631.run(Script1688972547631.groovy:14)
+	... 13 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-KOS4MB62', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 40 more
+)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>51</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain</class>
+      <method>stepFailed</method>
+      <line>40</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain</class>
+      <method>runKeyword</method>
+      <line>23</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword</class>
+      <method>startApplication</method>
+      <line>63</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword</class>
+      <method>execute</method>
+      <line>42</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords</class>
+      <method>startApplication</method>
+      <line>78</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>validUserSignIn</class>
+      <method>run</method>
+      <line>14</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>148</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1688975696129</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &apos;uiautomator2ServerLaunchTimeout&apos; capability
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;LAPTOP-KOS4MB62&apos;, ip: &apos;192.168.1.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &apos;uiautomator2ServerLaunchTimeout&apos; capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.&lt;init&gt;(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at validUserSignIn.run(validUserSignIn:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688975696129.run(TempTestSuite1688975696129.groovy:36)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.WebDriverException</property>
+  <property name="failed.exception.message">An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &apos;uiautomator2ServerLaunchTimeout&apos; capability
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;LAPTOP-KOS4MB62&apos;, ip: &apos;192.168.1.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &apos;uiautomator2ServerLaunchTimeout&apos; capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)</property>
+</record>
+<record>
+  <date>2023-07-10T13:25:59</date>
+  <millis>1688975759711</millis>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/validUserSignIn</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: true,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2023-07-10T13:25:59</date>
+  <millis>1688975759728</millis>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/validUserSignIn</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">2</property>
+  <property name="name">Test Cases/validUserSignIn</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/validUserSignIn</property>
+  <property name="source">C:\Users\Tanya\git\androidYahooTest\Test Cases\validUserSignIn.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">1</property>
+</record>
+<record>
+  <date>2023-07-10T13:25:59</date>
+  <millis>1688975759744</millis>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : appPath = relativeToAbsolutePath(G_AppPath, getProjectDir())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">13</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Get full directory&apos;s path of android application</property>
+</record>
+<record>
+  <date>2023-07-10T13:25:59</date>
+  <millis>1688975759746</millis>
+  <sequence>39</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : appPath = relativeToAbsolutePath(G_AppPath, getProjectDir())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:25:59</date>
+  <millis>1688975759746</millis>
+  <sequence>40</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(appPath, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">14</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:27</date>
+  <millis>1688975787377</millis>
+  <sequence>43</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.22.3</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumVersion">1.22.3</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:27</date>
+  <millis>1688975787378</millis>
+  <sequence>44</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumServerStatus = {&amp;quot;value&amp;quot;:{&amp;quot;build&amp;quot;:{&amp;quot;version&amp;quot;:&amp;quot;1.22.3&amp;quot;}},&amp;quot;sessionId&amp;quot;:null,&amp;quot;status&amp;quot;:0}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumServerStatus">{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:27</date>
+  <millis>1688975787413</millis>
+  <sequence>45</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = a425992f</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceId">a425992f</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:27</date>
+  <millis>1688975787414</millis>
+  <sequence>46</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = OnePlus EB2101 (Android 11)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">OnePlus EB2101 (Android 11)</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:27</date>
+  <millis>1688975787414</millis>
+  <sequence>47</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = EB2101</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceModel">EB2101</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:27</date>
+  <millis>1688975787415</millis>
+  <sequence>48</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = OnePlus</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceManufacturer">OnePlus</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:27</date>
+  <millis>1688975787416</millis>
+  <sequence>49</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:27</date>
+  <millis>1688975787417</millis>
+  <sequence>50</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 11</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOSVersion">11</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:28</date>
+  <millis>1688975788596</millis>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;C:\Users\Tanya\git\androidYahooTest\androidapp\yahoo.apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-07-10T13:26:28</date>
+  <millis>1688975788596</millis>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(appPath, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:28</date>
+  <millis>1688975788597</millis>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : signIn = findTestObject(&amp;quot;signInPage/signInBtn&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">16</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:28</date>
+  <millis>1688975788801</millis>
+  <sequence>55</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : signIn = findTestObject(&amp;quot;signInPage/signInBtn&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:28</date>
+  <millis>1688975788802</millis>
+  <sequence>56</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : username = findTestObject(&amp;quot;signInPage/usernameField&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">17</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:28</date>
+  <millis>1688975788970</millis>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : username = findTestObject(&amp;quot;signInPage/usernameField&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:28</date>
+  <millis>1688975788970</millis>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : nextBtn = findTestObject(&amp;quot;signInPage/usernameNextBtn&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">18</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:29</date>
+  <millis>1688975789117</millis>
+  <sequence>61</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : nextBtn = findTestObject(&amp;quot;signInPage/usernameNextBtn&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:29</date>
+  <millis>1688975789117</millis>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : password = findTestObject(&amp;quot;signInPage/passwordField&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">19</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:29</date>
+  <millis>1688975789280</millis>
+  <sequence>64</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : password = findTestObject(&amp;quot;signInPage/passwordField&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:29</date>
+  <millis>1688975789280</millis>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : nextBtn1 = findTestObject(&amp;quot;signInPage/passwordNextBtn&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:29</date>
+  <millis>1688975789443</millis>
+  <sequence>67</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : nextBtn1 = findTestObject(&amp;quot;signInPage/passwordNextBtn&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:29</date>
+  <millis>1688975789443</millis>
+  <sequence>68</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : nextButton = findTestObject(&amp;quot;signInPage/customizeNext&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">21</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:29</date>
+  <millis>1688975789600</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : nextButton = findTestObject(&amp;quot;signInPage/customizeNext&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:29</date>
+  <millis>1688975789601</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : skip = findTestObject(&amp;quot;signInPage/skipLink&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:29</date>
+  <millis>1688975789715</millis>
+  <sequence>73</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : skip = findTestObject(&amp;quot;signInPage/skipLink&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:29</date>
+  <millis>1688975789716</millis>
+  <sequence>74</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : inboxImg = findTestObject(&amp;quot;signInPage/inbox&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:29</date>
+  <millis>1688975789872</millis>
+  <sequence>76</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : inboxImg = findTestObject(&amp;quot;signInPage/inbox&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:29</date>
+  <millis>1688975789873</millis>
+  <sequence>77</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(signIn, G_Timeout)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">25</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:30</date>
+  <millis>1688975790827</millis>
+  <sequence>80</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/signInPage/signInBtn&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-07-10T13:26:30</date>
+  <millis>1688975790827</millis>
+  <sequence>81</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(signIn, G_Timeout)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:30</date>
+  <millis>1688975790828</millis>
+  <sequence>82</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(username, G_validUsername, G_Timeout)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:34</date>
+  <millis>1688975794470</millis>
+  <sequence>85</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;androidmweb49@yahoo.com&amp;apos; has been set to element &amp;apos;Object Repository/signInPage/usernameField&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-07-10T13:26:34</date>
+  <millis>1688975794471</millis>
+  <sequence>86</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(username, G_validUsername, G_Timeout)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:34</date>
+  <millis>1688975794471</millis>
+  <sequence>87</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(nextBtn, G_Timeout)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">27</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:35</date>
+  <millis>1688975795537</millis>
+  <sequence>90</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/signInPage/usernameNextBtn&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-07-10T13:26:35</date>
+  <millis>1688975795539</millis>
+  <sequence>91</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(nextBtn, G_Timeout)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:35</date>
+  <millis>1688975795540</millis>
+  <sequence>92</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(password, G_validPassword, G_Timeout)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">28</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:37</date>
+  <millis>1688975797654</millis>
+  <sequence>95</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Automation@2023&amp;apos; has been set to element &amp;apos;Object Repository/signInPage/passwordField&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-07-10T13:26:37</date>
+  <millis>1688975797654</millis>
+  <sequence>96</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(password, G_validPassword, G_Timeout)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:37</date>
+  <millis>1688975797655</millis>
+  <sequence>97</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(nextBtn1, G_Timeout)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">29</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:38</date>
+  <millis>1688975798722</millis>
+  <sequence>100</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/signInPage/passwordNextBtn&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-07-10T13:26:38</date>
+  <millis>1688975798723</millis>
+  <sequence>101</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(nextBtn1, G_Timeout)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:38</date>
+  <millis>1688975798724</millis>
+  <sequence>102</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(nextButton, G_Timeout)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">30</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:45</date>
+  <millis>1688975805230</millis>
+  <sequence>105</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/signInPage/customizeNext&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-07-10T13:26:45</date>
+  <millis>1688975805231</millis>
+  <sequence>106</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(nextButton, G_Timeout)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:45</date>
+  <millis>1688975805232</millis>
+  <sequence>107</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(skip, G_Timeout)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">31</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:46</date>
+  <millis>1688975806461</millis>
+  <sequence>110</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/signInPage/skipLink&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-07-10T13:26:46</date>
+  <millis>1688975806462</millis>
+  <sequence>111</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(skip, G_Timeout)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:46</date>
+  <millis>1688975806462</millis>
+  <sequence>112</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementVisible(inboxImg, G_Timeout, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">32</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:56</date>
+  <millis>1688975816592</millis>
+  <sequence>115</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/signInPage/inbox&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-07-10T13:26:56</date>
+  <millis>1688975816593</millis>
+  <sequence>116</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">33</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:57</date>
+  <millis>1688975817911</millis>
+  <sequence>117</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Screenshot is taken</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="attachment">1688975817000.png</property>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword.takeScreenshot</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-07-10T13:26:57</date>
+  <millis>1688975817925</millis>
+  <sequence>118</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:57</date>
+  <millis>1688975817925</millis>
+  <sequence>119</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : markPassed(&amp;quot;Successfully user logged in&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">34</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:57</date>
+  <millis>1688975817945</millis>
+  <sequence>121</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Successfully user logged in</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:340)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:334)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:57)
+com.kms.katalon.core.util.KeywordUtil$markPassed.call(Unknown Source)
+validUserSignIn.run(validUserSignIn:34)
+</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:57</date>
+  <millis>1688975817945</millis>
+  <sequence>122</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : markPassed(&amp;quot;Successfully user logged in&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:57</date>
+  <millis>1688975817945</millis>
+  <sequence>123</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementVisible(inboxImg, G_Timeout, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:57</date>
+  <millis>1688975817946</millis>
+  <sequence>124</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/validUserSignIn</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:57</date>
+  <millis>1688975817946</millis>
+  <sequence>125</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/validUserSignIn</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">2</property>
+  <property name="currentRetryCount">1</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: true,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2023-07-10T13:26:57</date>
+  <millis>1688975817947</millis>
+  <sequence>126</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:58</date>
+  <millis>1688975818999</millis>
+  <sequence>296</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\Users\Tanya\git\androidYahooTest\Reports\20230710_132456\testYahoo\20230710_132456...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:59</date>
+  <millis>1688975819176</millis>
+  <sequence>297</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:59</date>
+  <millis>1688975819177</millis>
+  <sequence>298</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\Users\Tanya\git\androidYahooTest\Reports\20230710_132456\testYahoo\20230710_132456...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:26:59</date>
+  <millis>1688975819210</millis>
+  <sequence>299</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:27:02</date>
+  <millis>1688975822669</millis>
+  <sequence>301</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-07-10T13:27:05</date>
+  <millis>1688975825763</millis>
+  <sequence>302</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/testYahoo</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

@@ -6,7 +6,8 @@
       "keywordMethods": [
         {
           "name": "generateRandomUsername",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "generatePassword",
@@ -24,14 +25,16 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "generatePassword",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

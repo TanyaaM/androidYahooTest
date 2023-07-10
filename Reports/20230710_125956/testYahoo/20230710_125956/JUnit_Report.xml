@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testYahoo" time="123.877" tests="1" failures="0" errors="0">
+   <testsuite name="testYahoo" tests="1" failures="0" errors="0" time="123.877" skipped="0" timestamp="2023-07-10 13:00:03" hostname="Tanya - LAPTOP-KOS4MB62" id="Test Suites/testYahoo">
+      <properties>
+         <property name="deviceName" value="OnePlus EB2101 (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Tanya\\git\\androidYahooTest\\Reports\\20230710_125956\\testYahoo\\20230710_125956"/>
+         <property name="logFiles" value="C:\\Users\\Tanya\\git\\androidYahooTest\\Reports\\20230710_125956\\testYahoo\\20230710_125956\\appium.log, C:\\Users\\Tanya\\git\\androidYahooTest\\Reports\\20230710_125956\\testYahoo\\20230710_125956\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Tanya - LAPTOP-KOS4MB62"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="EB2101"/>
+         <property name="hostAddress" value="192.168.1.35"/>
+         <property name="deviceManufacturer" value="OnePlus"/>
+         <property name="deviceId" value="a425992f"/>
+         <property name="deviceName" value="OnePlus EB2101 (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Reset user password" time="123.375" classname="Test Cases/Reset user password" status="PASSED">
+         <system-out><![CDATA[2023-07-10 13:00:03 - [TEST_CASE][PASSED] - Test Cases/Reset user password: Test Cases/Reset user password
+
+2023-07-10 13:00:04 - [TEST_STEP][PASSED] - h = new helperFunctions.Helper(): null
+
+2023-07-10 13:00:04 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(G_AppPath, getProjectDir()): null
+
+2023-07-10 13:00:05 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: 'C:\Users\Tanya\git\androidYahooTest\androidapp\yahoo.apk'
+
+2023-07-10 13:00:06 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-07-10 13:00:09 - [MESSAGE][INFO] - Appium server started on port 60,353
+
+2023-07-10 13:00:41 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Tanya\git\androidYahooTest\androidapp\yahoo.apk'
+
+2023-07-10 13:00:41 - [TEST_STEP][PASSED] - signIn = findTestObject("signInPage/signInBtn"): null
+
+2023-07-10 13:00:41 - [TEST_STEP][PASSED] - username = findTestObject("signInPage/usernameField"): null
+
+2023-07-10 13:00:41 - [TEST_STEP][PASSED] - nextBtn = findTestObject("signInPage/usernameNextBtn"): null
+
+2023-07-10 13:00:41 - [TEST_STEP][PASSED] - forgotPassword = findTestObject("forgotPasswordPage/forgotPasswordLink"): null
+
+2023-07-10 13:00:42 - [TEST_STEP][PASSED] - emailCodeText = findTestObject("forgotPasswordPage/emailCode"): null
+
+2023-07-10 13:00:42 - [TEST_STEP][PASSED] - recoveryEmail = findTestObject("forgotPasswordPage/recoveryEmailField"): null
+
+2023-07-10 13:00:42 - [TEST_STEP][PASSED] - sendBtn = findTestObject("forgotPasswordPage/sendBtn"): null
+
+2023-07-10 13:00:42 - [TEST_STEP][PASSED] - verifyBtn = findTestObject("forgotPasswordPage/verifyBtn"): null
+
+2023-07-10 13:00:42 - [TEST_STEP][PASSED] - newPasswordField = findTestObject("forgotPasswordPage/newPasswordField"): null
+
+2023-07-10 13:00:42 - [TEST_STEP][PASSED] - continueBtn = findTestObject("forgotPasswordPage/continueBtn"): null
+
+2023-07-10 13:00:43 - [TEST_STEP][PASSED] - looksGood = findTestObject("forgotPasswordPage/looksGoodBtn"): null
+
+2023-07-10 13:00:43 - [TEST_STEP][PASSED] - inboxImg = findTestObject("signInPage/inbox"): null
+
+2023-07-10 13:00:43 - [TEST_STEP][PASSED] - nextButton = findTestObject("signInPage/customizeNext"): null
+
+2023-07-10 13:00:43 - [TEST_STEP][PASSED] - skip = findTestObject("signInPage/skipLink"): null
+
+2023-07-10 13:00:43 - [TEST_STEP][PASSED] - tap(signIn, G_Timeout): Tapped on element 'Object Repository/signInPage/signInBtn'
+
+2023-07-10 13:00:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/signInPage/signInBtn'
+
+2023-07-10 13:00:44 - [TEST_STEP][PASSED] - setText(username, G_resetAccountUsername, G_Timeout): Text 'tabtest110@yahoo.com' has been set to element 'Object Repository/signInPage/usernameField'
+
+2023-07-10 13:00:48 - [MESSAGE][PASSED] - Text 'tabtest110@yahoo.com' has been set to element 'Object Repository/signInPage/usernameField'
+
+2023-07-10 13:00:48 - [TEST_STEP][PASSED] - tap(nextBtn, G_Timeout): Tapped on element 'Object Repository/signInPage/usernameNextBtn'
+
+2023-07-10 13:00:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/signInPage/usernameNextBtn'
+
+2023-07-10 13:00:49 - [TEST_STEP][PASSED] - tap(forgotPassword, G_Timeout): Tapped on element 'Object Repository/forgotPasswordPage/forgotPasswordLink'
+
+2023-07-10 13:00:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/forgotPasswordPage/forgotPasswordLink'
+
+2023-07-10 13:00:51 - [TEST_STEP][PASSED] - tap(emailCodeText, G_Timeout): Tapped on element 'Object Repository/forgotPasswordPage/emailCode'
+
+2023-07-10 13:00:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/forgotPasswordPage/emailCode'
+
+2023-07-10 13:00:55 - [TEST_STEP][PASSED] - setText(recoveryEmail, G_recoveryEmailId, G_Timeout): Text 'tanya123mahajan@gmail.com' has been set to element 'Object Repository/forgotPasswordPage/recoveryEmailField'
+
+2023-07-10 13:00:56 - [MESSAGE][PASSED] - Text 'tanya123mahajan@gmail.com' has been set to element 'Object Repository/forgotPasswordPage/recoveryEmailField'
+
+2023-07-10 13:00:56 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-10 13:00:59 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-10 13:00:59 - [TEST_STEP][PASSED] - tap(sendBtn, G_Timeout): Tapped on element 'Object Repository/forgotPasswordPage/sendBtn'
+
+2023-07-10 13:00:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/forgotPasswordPage/sendBtn'
+
+2023-07-10 13:00:59 - [TEST_STEP][PASSED] - Thread.sleep(40000): null
+
+2023-07-10 13:01:39 - [TEST_STEP][PASSED] - tap(verifyBtn, G_Timeout): Tapped on element 'Object Repository/forgotPasswordPage/verifyBtn'
+
+2023-07-10 13:01:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/forgotPasswordPage/verifyBtn'
+
+2023-07-10 13:01:40 - [TEST_STEP][PASSED] - newPassword = h.generatePassword(12): null
+
+2023-07-10 13:01:40 - [TEST_STEP][PASSED] - setText(newPasswordField, newPassword, G_Timeout): Text 'Xx(tNXJ1ap2^' has been set to element 'Object Repository/forgotPasswordPage/newPasswordField'
+
+2023-07-10 13:01:43 - [MESSAGE][PASSED] - Text 'Xx(tNXJ1ap2^' has been set to element 'Object Repository/forgotPasswordPage/newPasswordField'
+
+2023-07-10 13:01:43 - [TEST_STEP][PASSED] - tap(continueBtn, G_Timeout): Tapped on element 'Object Repository/forgotPasswordPage/continueBtn'
+
+2023-07-10 13:01:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/forgotPasswordPage/continueBtn'
+
+2023-07-10 13:01:45 - [TEST_STEP][PASSED] - tap(looksGood, G_Timeout): Tapped on element 'Object Repository/forgotPasswordPage/looksGoodBtn'
+
+2023-07-10 13:01:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/forgotPasswordPage/looksGoodBtn'
+
+2023-07-10 13:01:48 - [TEST_STEP][PASSED] - tap(nextButton, G_Timeout): Tapped on element 'Object Repository/signInPage/customizeNext'
+
+2023-07-10 13:01:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/signInPage/customizeNext'
+
+2023-07-10 13:01:55 - [TEST_STEP][PASSED] - tap(skip, G_Timeout): Tapped on element 'Object Repository/signInPage/skipLink'
+
+2023-07-10 13:01:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/signInPage/skipLink'
+
+2023-07-10 13:01:57 - [TEST_STEP][PASSED] - if (verifyElementVisible(inboxImg, G_Timeout, OPTIONAL)): null
+
+2023-07-10 13:02:07 - [MESSAGE][PASSED] - Element 'Object Repository/signInPage/inbox' is visible
+
+2023-07-10 13:02:07 - [TEST_STEP][PASSED] - markPassed("Successfully user logged in"): Successfully user logged in
+
+2023-07-10 13:02:07 - [MESSAGE][PASSED] - Successfully user logged in]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-10 13:00:03 - [TEST_SUITE][PASSED] - testYahoo: Test Cases/Reset user password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

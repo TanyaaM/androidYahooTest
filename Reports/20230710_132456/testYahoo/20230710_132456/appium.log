@@ -1,0 +1,1480 @@
+[35m[Appium][39m Welcome to Appium v1.22.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 61038
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\Tanya\AppData\Local\Temp\\Katalon\Appium\Temp1688975701440
+[35m[Appium][39m   chromedriverPort: 61039
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 61039
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:61038
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\Tanya\\git\\androidYahooTest\\androidapp\\yahoo.apk","noReset":true,"deviceName":"OnePlus EB2101 (Android 11)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"a425992f","systemPort":61037},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Tanya\\git\\androidYahooTest\\androidapp\\yahoo.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"OnePlus EB2101 (Android 11)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":61037,"appium:udid":"a425992f"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: dd4b1261-1693-4b43-9f1f-de6215c6f583
+[35m[BaseDriver][39m Using local app 'C:\Users\Tanya\git\androidYahooTest\androidapp\yahoo.apk'
+[35m[ADB][39m Found 2 'build-tools' folders under 'C:\Users\Tanya\AppData\Local\Android\Sdk' (newest first):
+[35m[ADB][39m     C:/Users/Tanya/AppData/Local/Android/Sdk/build-tools/34.0.0
+[35m[ADB][39m     C:/Users/Tanya/AppData/Local/Android/Sdk/build-tools/30.0.3
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Tanya\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: a425992f
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Tanya\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.yahoo.mobile.client.android.mail'
+[35m[ADB][39m Main activity name: 'com.yahoo.mobile.client.android.mail.activity.MainActivity'
+[35m[ADB][39m The application at 'C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'settings_apk-debug.apk' took 1012ms
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\Tanya\AppData\Local\Android\Sdk\build-tools\34.0.0\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m 'C:\Users\Tanya\git\androidYahooTest\androidapp\yahoo.apk' is signed with a non-default certificate
+[35m[ADB][39m The application at 'C:\Users\Tanya\git\androidYahooTest\androidapp\yahoo.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'yahoo.apk' took 11487ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m52145 ms - 1059[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\Tanya\\git\\androidYahooTest\\androidapp\\yahoo.apk","noReset":true,"deviceName":"OnePlus EB2101 (Android 11)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"a425992f","systemPort":61239},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Tanya\\git\\androidYahooTest\\androidapp\\yahoo.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"OnePlus EB2101 (Android 11)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":61239,"appium:udid":"a425992f"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[BaseDriver][39m Using local app 'C:\Users\Tanya\git\androidYahooTest\androidapp\yahoo.apk'
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Tanya\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: a425992f
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Tanya\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.yahoo.mobile.client.android.mail'
+[35m[ADB][39m Main activity name: 'com.yahoo.mobile.client.android.mail.activity.MainActivity'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activity.MainActivity and waiting for 'com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activity.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 3460cd84-3a78-4337-83e7-77990a05ab52 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m23509 ms - 1283[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52 [39m[32m200[39m [90m17 ms - 1237[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52 [39m[32m200[39m [90m35 ms - 1237[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/screenshot [39m[32m200[39m [90m387 ms - 279314[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/window/rect [39m[32m200[39m [90m27 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/appium/device/system_bars [39m[32m200[39m [90m169 ms - 149[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/window/rect [39m[32m200[39m [90m29 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = '  Sign in with Yahoo' or . = '  Sign in with Yahoo') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/yahoo_sign_in_link']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m304 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04be-ffff-ffff0000008c/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04be-ffff-ffff0000008c/location [39m[32m200[39m [90m31 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04be-ffff-ffff0000008c/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-04be-ffff-ffff0000008c"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04be-ffff-ffff0000008c/click [39m[32m200[39m [90m105 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/window/rect [39m[32m200[39m [90m15 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'login-username' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m1250 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'login-username' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m54 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'login-username' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'login-username' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m114 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'login-username' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'login-username' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'login-username' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'login-username' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m124 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'login-username' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m1308 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-0027000000ab/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-0027000000ab/location [39m[32m200[39m [90m25 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-0027000000ab/clear[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-04c0-0000-0027000000ab"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-0027000000ab/clear [39m[32m200[39m [90m25 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-0027000000ab/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-04c0-0000-0027000000ab","text":"androidmweb49@yahoo.com","value":["a","n","d","r","o","i","d","m","w","e","b","4","9","@","y","a","h","o","o",".","c","o","m"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-0027000000ab/value [39m[32m200[39m [90m38 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/window/rect [39m[32m200[39m [90m31 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'login-signin']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m862 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-003e000000ab/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-003e000000ab/location [39m[32m200[39m [90m30 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-003e000000ab/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-04c0-0000-003e000000ab"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-003e000000ab/click [39m[32m200[39m [90m72 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/window/rect [39m[32m200[39m [90m18 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'login-passwd' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m632 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'login-passwd' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m117 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'login-passwd' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m1170 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-0060000000ab/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-0060000000ab/location [39m[32m200[39m [90m22 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-0060000000ab/clear[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-04c0-0000-0060000000ab"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-0060000000ab/clear [39m[32m200[39m [90m25 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-0060000000ab/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-04c0-0000-0060000000ab","text":"Automation@2023","value":["A","u","t","o","m","a","t","i","o","n","@","2","0","2","3"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-0060000000ab/value [39m[32m200[39m [90m36 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/window/rect [39m[32m200[39m [90m19 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'login-signin']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m853 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-0083000000ab/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-0083000000ab/location [39m[32m200[39m [90m24 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-0083000000ab/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-04c0-0000-0083000000ab"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c0-0000-0083000000ab/click [39m[32m200[39m [90m108 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/window/rect [39m[32m200[39m [90m22 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m1148 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m203 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m53 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m74 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m147 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m61 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m90 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m53 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m94 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m97 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m94 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m104 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m123 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m89 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m113 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m96 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m469 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m186 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m112 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m341 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m164 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m294 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m285 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m116 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m159 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/set_theme']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m237 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c1-ffff-ffff00000105/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c1-ffff-ffff00000105/location [39m[32m200[39m [90m222 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c1-ffff-ffff00000105/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-04c1-ffff-ffff00000105"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c1-ffff-ffff00000105/click [39m[32m200[39m [90m61 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/window/rect [39m[32m200[39m [90m53 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/close']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m130 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/close']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m385 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c2-ffff-ffff00000114/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c2-ffff-ffff00000114/location [39m[32m200[39m [90m26 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c2-ffff-ffff00000114/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-04c2-ffff-ffff00000114"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c2-ffff-ffff00000114/click [39m[32m200[39m [90m53 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/window/rect [39m[32m200[39m [90m14 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m1058 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m21 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m42 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m18 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m43 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m22 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m42 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m17 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m43 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m19 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m49 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m19 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m49 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m13 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m52 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m21 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m41 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m17 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m41 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m16 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m41 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m19 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m30 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m22 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m28 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m30 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m57 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m22 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m25 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m18 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m32 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m15 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m34 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m12 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m44 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m17 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m50 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m13 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m32 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m18 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m28 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m26 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m31 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m16 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m54 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m15 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m31 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m16 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m27 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m18 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m32 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m18 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m32 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m15 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m31 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m20 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m36 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m14 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m33 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m16 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m36 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m18 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m25 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m16 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m34 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m18 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m38 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m14 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m26 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m17 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m33 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m15 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m23 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m16 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m23 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m17 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m38 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m19 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m45 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m17 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m655 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m21 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m41 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m13 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m33 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m16 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m37 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m19 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m57 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m25 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m36 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m14 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m33 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m21 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m46 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m14 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m42 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m20 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m41 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m24 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m39 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m20 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m41 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m16 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m47 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m17 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m53 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m17 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m37 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m21 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m42 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m17 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m44 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m14 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m34 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m12 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m41 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m18 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m38 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m19 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m25 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m16 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m30 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m28 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m80 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m17 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m49 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m17 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m39 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m25 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m63 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m28 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m73 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m31 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m47 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m24 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m46 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m18 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m535 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m24 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m62 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m23 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m62 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m22 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m58 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m25 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m66 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m21 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m75 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m32 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m74 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m29 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m75 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m22 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m59 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m22 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m49 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m20 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m66 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m15 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m42 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m23 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m74 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m21 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m68 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m27 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m76 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m22 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m69 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m25 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m536 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m31 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m32 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m21 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m77 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m32 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m43 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m18 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m71 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m21 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m54 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m17 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Inbox' or . = 'Inbox') and @resource-id = 'com.yahoo.mobile.client.android.mail:id/item_inbox']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/elements [39m[32m200[39m [90m49 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3460cd84)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 01627815-ed43-4119-8482-a3ced4247a9d with 3460cd84-3a78-4337-83e7-77990a05ab52
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/location [39m[32m200[39m [90m36 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/element/00000000-0000-04c3-ffff-ffff00000168/displayed [39m[32m200[39m [90m24 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/contexts [39m[32m200[39m [90m260 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/screenshot [39m[32m200[39m [90m429 ms - 176860[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 3460cd84-3a78-4337-83e7-77990a05ab52 from our master session list
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/3460cd84-3a78-4337-83e7-77990a05ab52 [39m[32m200[39m [90m441 ms - 14[39m
+[35m[HTTP][39m [90m[39m

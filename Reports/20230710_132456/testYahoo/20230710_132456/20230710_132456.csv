@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testYahoo,,,,2023-07-10 13:24:59,2023-07-10 13:26:57,1m - 58.209s,PASSED
+,,,,,,,
+Test Cases/validUserSignIn,,,,2023-07-10 13:25:59,2023-07-10 13:26:57,58.218s,PASSED
+"appPath = relativeToAbsolutePath(G_AppPath, getProjectDir())",,Get full directory's path of android application,,2023-07-10 13:25:59,2023-07-10 13:25:59,0.002s,PASSED
+"startApplication(appPath, false)",,,,2023-07-10 13:25:59,2023-07-10 13:26:28,28.850s,PASSED
+"signIn = findTestObject(""signInPage/signInBtn"")",,,,2023-07-10 13:26:28,2023-07-10 13:26:28,0.204s,PASSED
+"username = findTestObject(""signInPage/usernameField"")",,,,2023-07-10 13:26:28,2023-07-10 13:26:28,0.168s,PASSED
+"nextBtn = findTestObject(""signInPage/usernameNextBtn"")",,,,2023-07-10 13:26:28,2023-07-10 13:26:29,0.147s,PASSED
+"password = findTestObject(""signInPage/passwordField"")",,,,2023-07-10 13:26:29,2023-07-10 13:26:29,0.163s,PASSED
+"nextBtn1 = findTestObject(""signInPage/passwordNextBtn"")",,,,2023-07-10 13:26:29,2023-07-10 13:26:29,0.163s,PASSED
+"nextButton = findTestObject(""signInPage/customizeNext"")",,,,2023-07-10 13:26:29,2023-07-10 13:26:29,0.157s,PASSED
+"skip = findTestObject(""signInPage/skipLink"")",,,,2023-07-10 13:26:29,2023-07-10 13:26:29,0.114s,PASSED
+"inboxImg = findTestObject(""signInPage/inbox"")",,,,2023-07-10 13:26:29,2023-07-10 13:26:29,0.156s,PASSED
+"tap(signIn, G_Timeout)",,,,2023-07-10 13:26:29,2023-07-10 13:26:30,0.954s,PASSED
+"setText(username, G_validUsername, G_Timeout)",,,,2023-07-10 13:26:30,2023-07-10 13:26:34,3.643s,PASSED
+"tap(nextBtn, G_Timeout)",,,,2023-07-10 13:26:34,2023-07-10 13:26:35,1.068s,PASSED
+"setText(password, G_validPassword, G_Timeout)",,,,2023-07-10 13:26:35,2023-07-10 13:26:37,2.114s,PASSED
+"tap(nextBtn1, G_Timeout)",,,,2023-07-10 13:26:37,2023-07-10 13:26:38,1.068s,PASSED
+"tap(nextButton, G_Timeout)",,,,2023-07-10 13:26:38,2023-07-10 13:26:45,6.507s,PASSED
+"tap(skip, G_Timeout)",,,,2023-07-10 13:26:45,2023-07-10 13:26:46,1.230s,PASSED
+"if (verifyElementVisible(inboxImg, G_Timeout, OPTIONAL))",,,,2023-07-10 13:26:46,2023-07-10 13:26:57,11.483s,PASSED

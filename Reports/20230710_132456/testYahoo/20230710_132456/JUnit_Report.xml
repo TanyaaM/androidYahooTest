@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testYahoo" time="118.209" tests="1" failures="0" errors="0">
+   <testsuite name="testYahoo" tests="1" failures="0" errors="0" time="118.209" skipped="0" timestamp="2023-07-10 13:24:59" hostname="Tanya - LAPTOP-KOS4MB62" id="Test Suites/testYahoo">
+      <properties>
+         <property name="deviceName" value="OnePlus EB2101 (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Tanya\\git\\androidYahooTest\\Reports\\20230710_132456\\testYahoo\\20230710_132456"/>
+         <property name="logFiles" value="C:\\Users\\Tanya\\git\\androidYahooTest\\Reports\\20230710_132456\\testYahoo\\20230710_132456\\appium.log, C:\\Users\\Tanya\\git\\androidYahooTest\\Reports\\20230710_132456\\testYahoo\\20230710_132456\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Tanya\\git\\androidYahooTest\\Reports\\20230710_132456\\testYahoo\\20230710_132456\\1688975817000.png"/>
+         <property name="hostName" value="Tanya - LAPTOP-KOS4MB62"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="EB2101"/>
+         <property name="hostAddress" value="192.168.1.35"/>
+         <property name="deviceManufacturer" value="OnePlus"/>
+         <property name="deviceId" value="a425992f"/>
+         <property name="deviceName" value="OnePlus EB2101 (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/validUserSignIn" time="58.218" classname="Test Cases/validUserSignIn" status="PASSED">
+         <system-out><![CDATA[2023-07-10 13:25:59 - [TEST_CASE][PASSED] - Test Cases/validUserSignIn: Test Cases/validUserSignIn
+
+2023-07-10 13:25:59 - [TEST_STEP][PASSED] - appPath = relativeToAbsolutePath(G_AppPath, getProjectDir()): null
+
+2023-07-10 13:25:59 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: 'C:\Users\Tanya\git\androidYahooTest\androidapp\yahoo.apk'
+
+2023-07-10 13:26:28 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Tanya\git\androidYahooTest\androidapp\yahoo.apk'
+
+2023-07-10 13:26:28 - [TEST_STEP][PASSED] - signIn = findTestObject("signInPage/signInBtn"): null
+
+2023-07-10 13:26:28 - [TEST_STEP][PASSED] - username = findTestObject("signInPage/usernameField"): null
+
+2023-07-10 13:26:28 - [TEST_STEP][PASSED] - nextBtn = findTestObject("signInPage/usernameNextBtn"): null
+
+2023-07-10 13:26:29 - [TEST_STEP][PASSED] - password = findTestObject("signInPage/passwordField"): null
+
+2023-07-10 13:26:29 - [TEST_STEP][PASSED] - nextBtn1 = findTestObject("signInPage/passwordNextBtn"): null
+
+2023-07-10 13:26:29 - [TEST_STEP][PASSED] - nextButton = findTestObject("signInPage/customizeNext"): null
+
+2023-07-10 13:26:29 - [TEST_STEP][PASSED] - skip = findTestObject("signInPage/skipLink"): null
+
+2023-07-10 13:26:29 - [TEST_STEP][PASSED] - inboxImg = findTestObject("signInPage/inbox"): null
+
+2023-07-10 13:26:29 - [TEST_STEP][PASSED] - tap(signIn, G_Timeout): Tapped on element 'Object Repository/signInPage/signInBtn'
+
+2023-07-10 13:26:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/signInPage/signInBtn'
+
+2023-07-10 13:26:30 - [TEST_STEP][PASSED] - setText(username, G_validUsername, G_Timeout): Text 'androidmweb49@yahoo.com' has been set to element 'Object Repository/signInPage/usernameField'
+
+2023-07-10 13:26:34 - [MESSAGE][PASSED] - Text 'androidmweb49@yahoo.com' has been set to element 'Object Repository/signInPage/usernameField'
+
+2023-07-10 13:26:34 - [TEST_STEP][PASSED] - tap(nextBtn, G_Timeout): Tapped on element 'Object Repository/signInPage/usernameNextBtn'
+
+2023-07-10 13:26:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/signInPage/usernameNextBtn'
+
+2023-07-10 13:26:35 - [TEST_STEP][PASSED] - setText(password, G_validPassword, G_Timeout): Text 'Automation@2023' has been set to element 'Object Repository/signInPage/passwordField'
+
+2023-07-10 13:26:37 - [MESSAGE][PASSED] - Text 'Automation@2023' has been set to element 'Object Repository/signInPage/passwordField'
+
+2023-07-10 13:26:37 - [TEST_STEP][PASSED] - tap(nextBtn1, G_Timeout): Tapped on element 'Object Repository/signInPage/passwordNextBtn'
+
+2023-07-10 13:26:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/signInPage/passwordNextBtn'
+
+2023-07-10 13:26:38 - [TEST_STEP][PASSED] - tap(nextButton, G_Timeout): Tapped on element 'Object Repository/signInPage/customizeNext'
+
+2023-07-10 13:26:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/signInPage/customizeNext'
+
+2023-07-10 13:26:45 - [TEST_STEP][PASSED] - tap(skip, G_Timeout): Tapped on element 'Object Repository/signInPage/skipLink'
+
+2023-07-10 13:26:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/signInPage/skipLink'
+
+2023-07-10 13:26:46 - [TEST_STEP][PASSED] - if (verifyElementVisible(inboxImg, G_Timeout, OPTIONAL)): null
+
+2023-07-10 13:26:56 - [MESSAGE][PASSED] - Element 'Object Repository/signInPage/inbox' is visible
+
+2023-07-10 13:26:56 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-10 13:26:57 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Tanya\\git\\androidYahooTest\\Reports\\20230710_132456\\testYahoo\\20230710_132456\\1688975817000.png]]
+
+2023-07-10 13:26:57 - [TEST_STEP][PASSED] - markPassed("Successfully user logged in"): Successfully user logged in
+
+2023-07-10 13:26:57 - [MESSAGE][PASSED] - Successfully user logged in]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-10 13:24:59 - [TEST_SUITE][FAILED] - testYahoo: Test Cases/validUserSignIn FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app at: 'C:\Users\Tanya\git\androidYahooTest\androidapp\yahoo.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-KOS4MB62', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-KOS4MB62', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: SwipeableAndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.<init>(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at validUserSignIn.run(validUserSignIn:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688975696129.run(TempTestSuite1688975696129.groovy:36)
+Caused by: java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.<init>(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at Script1688972547631.run(Script1688972547631.groovy:14)
+	... 13 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-KOS4MB62', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 40 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at validUserSignIn.run(validUserSignIn:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688975696129.run(TempTestSuite1688975696129.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-KOS4MB62', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-KOS4MB62', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: SwipeableAndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.<init>(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.<init>(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at Script1688972547631.run(Script1688972547631.groovy:14)
+	... 13 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-KOS4MB62', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.<init>(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at validUserSignIn.run(validUserSignIn:14)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2023-07-10 13:24:59 - [TEST_SUITE][FAILED] - testYahoo: Test Cases/validUserSignIn FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app at: 'C:\Users\Tanya\git\androidYahooTest\androidapp\yahoo.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-KOS4MB62', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-KOS4MB62', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: SwipeableAndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.<init>(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at validUserSignIn.run(validUserSignIn:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688975696129.run(TempTestSuite1688975696129.groovy:36)
+Caused by: java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.<init>(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at Script1688972547631.run(Script1688972547631.groovy:14)
+	... 13 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-KOS4MB62', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 40 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at validUserSignIn.run(validUserSignIn:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688975696129.run(TempTestSuite1688975696129.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-KOS4MB62', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-KOS4MB62', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: SwipeableAndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.<init>(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.<init>(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at Script1688972547631.run(Script1688972547631.groovy:14)
+	... 13 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-KOS4MB62', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability
+    at getResponseForW3CError (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Tanya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.<init>(SwipeableAndroidDriver.java:24)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:510)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:492)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:568)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at validUserSignIn.run(validUserSignIn:14)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

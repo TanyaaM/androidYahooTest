@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testYahoo,,,,2023-07-10 13:00:03,2023-07-10 13:02:07,2m - 3.877s,PASSED
+,,,,,,,
+Test Cases/Reset user password,,,,2023-07-10 13:00:03,2023-07-10 13:02:07,2m - 3.375s,PASSED
+h = new helperFunctions.Helper(),,,,2023-07-10 13:00:04,2023-07-10 13:00:04,0.018s,PASSED
+"appPath = relativeToAbsolutePath(G_AppPath, getProjectDir())",,Get full directory's path of android application,,2023-07-10 13:00:04,2023-07-10 13:00:05,0.787s,PASSED
+"startApplication(appPath, false)",,,,2023-07-10 13:00:05,2023-07-10 13:00:41,35.706s,PASSED
+"signIn = findTestObject(""signInPage/signInBtn"")",,,,2023-07-10 13:00:41,2023-07-10 13:00:41,0.205s,PASSED
+"username = findTestObject(""signInPage/usernameField"")",,,,2023-07-10 13:00:41,2023-07-10 13:00:41,0.165s,PASSED
+"nextBtn = findTestObject(""signInPage/usernameNextBtn"")",,,,2023-07-10 13:00:41,2023-07-10 13:00:41,0.169s,PASSED
+"forgotPassword = findTestObject(""forgotPasswordPage/forgotPasswordLink"")",,,,2023-07-10 13:00:41,2023-07-10 13:00:42,0.226s,PASSED
+"emailCodeText = findTestObject(""forgotPasswordPage/emailCode"")",,,,2023-07-10 13:00:42,2023-07-10 13:00:42,0.168s,PASSED
+"recoveryEmail = findTestObject(""forgotPasswordPage/recoveryEmailField"")",,,,2023-07-10 13:00:42,2023-07-10 13:00:42,0.176s,PASSED
+"sendBtn = findTestObject(""forgotPasswordPage/sendBtn"")",,,,2023-07-10 13:00:42,2023-07-10 13:00:42,0.176s,PASSED
+"verifyBtn = findTestObject(""forgotPasswordPage/verifyBtn"")",,,,2023-07-10 13:00:42,2023-07-10 13:00:42,0.180s,PASSED
+"newPasswordField = findTestObject(""forgotPasswordPage/newPasswordField"")",,,,2023-07-10 13:00:42,2023-07-10 13:00:42,0.180s,PASSED
+"continueBtn = findTestObject(""forgotPasswordPage/continueBtn"")",,,,2023-07-10 13:00:42,2023-07-10 13:00:43,0.155s,PASSED
+"looksGood = findTestObject(""forgotPasswordPage/looksGoodBtn"")",,,,2023-07-10 13:00:43,2023-07-10 13:00:43,0.162s,PASSED
+"inboxImg = findTestObject(""signInPage/inbox"")",,,,2023-07-10 13:00:43,2023-07-10 13:00:43,0.145s,PASSED
+"nextButton = findTestObject(""signInPage/customizeNext"")",,,,2023-07-10 13:00:43,2023-07-10 13:00:43,0.136s,PASSED
+"skip = findTestObject(""signInPage/skipLink"")",,,,2023-07-10 13:00:43,2023-07-10 13:00:43,0.134s,PASSED
+"tap(signIn, G_Timeout)",,,,2023-07-10 13:00:43,2023-07-10 13:00:44,1.042s,PASSED
+"setText(username, G_resetAccountUsername, G_Timeout)",,,,2023-07-10 13:00:44,2023-07-10 13:00:48,3.788s,PASSED
+"tap(nextBtn, G_Timeout)",,,,2023-07-10 13:00:48,2023-07-10 13:00:49,1.135s,PASSED
+"tap(forgotPassword, G_Timeout)",,,,2023-07-10 13:00:49,2023-07-10 13:00:51,2.315s,PASSED
+"tap(emailCodeText, G_Timeout)",,,,2023-07-10 13:00:51,2023-07-10 13:00:55,3.320s,PASSED
+"setText(recoveryEmail, G_recoveryEmailId, G_Timeout)",,,,2023-07-10 13:00:55,2023-07-10 13:00:56,1.639s,PASSED
+hideKeyboard(),,,,2023-07-10 13:00:56,2023-07-10 13:00:59,2.395s,PASSED
+"tap(sendBtn, G_Timeout)",,,,2023-07-10 13:00:59,2023-07-10 13:00:59,0.275s,PASSED
+Thread.sleep(40000),,,,2023-07-10 13:00:59,2023-07-10 13:01:39,40.028s,PASSED
+"tap(verifyBtn, G_Timeout)",,,,2023-07-10 13:01:39,2023-07-10 13:01:40,0.470s,PASSED
+newPassword = h.generatePassword(12),,,,2023-07-10 13:01:40,2023-07-10 13:01:40,0.194s,PASSED
+"setText(newPasswordField, newPassword, G_Timeout)",,,,2023-07-10 13:01:40,2023-07-10 13:01:43,3.323s,PASSED
+"tap(continueBtn, G_Timeout)",,,,2023-07-10 13:01:43,2023-07-10 13:01:45,2.383s,PASSED
+"tap(looksGood, G_Timeout)",,,,2023-07-10 13:01:45,2023-07-10 13:01:48,2.587s,PASSED
+"tap(nextButton, G_Timeout)",,,,2023-07-10 13:01:48,2023-07-10 13:01:55,6.499s,PASSED
+"tap(skip, G_Timeout)",,,,2023-07-10 13:01:55,2023-07-10 13:01:57,2.059s,PASSED
+"if (verifyElementVisible(inboxImg, G_Timeout, OPTIONAL))",,,,2023-07-10 13:01:57,2023-07-10 13:02:07,10.161s,PASSED

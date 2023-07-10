@@ -9,12 +9,28 @@ import com.kms.katalon.core.util.internal.PathUtil
 
 import internal.GlobalVariable
 import helperFunctions.Helper
+import com.kms.katalon.core.appium.driver.AppiumDriverManager
+import io.appium.java_client.android.AndroidDriver
+import org.openqa.selenium.remote.DesiredCapabilities
+import com.kms.katalon.core.mobile.driver.MobileDriverType
 
 Helper h =new Helper()
 
 'Get full directory\'s path of android application'
-def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.G_AppPath, RunConfiguration.getProjectDir())
-Mobile.startApplication(appPath, false)
+//def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.G_AppPath, RunConfiguration.getProjectDir())
+//Mobile.startApplication(appPath, false)
+
+// Set the Browserstack credentials: USERNAME and ACCESS_KEY
+String browserStackServerURL = "https://tanyamahajan_2rO9iZ:SzbokzKNQVHb4PN52R2U@hub-cloud.browserstack.com/wd/hub";
+
+DesiredCapabilities capabilities = new DesiredCapabilities();
+
+capabilities.setCapability("device", "Google Pixel 5");
+capabilities.setCapability("interactiveDebugging",true)
+//Set the app_url (returned on uploading app on Browserstack) in the 'app' capability
+capabilities.setCapability('app', 'bs://eb9201b9d84e9f661065b49e1e282307dcc804b2');
+
+AppiumDriverManager.createMobileDriver(MobileDriverType.ANDROID_DRIVER, capabilities, new URL(browserStackServerURL));
 
 TestObject signIn = findTestObject('signInPage/signInBtn')
 TestObject username = findTestObject('signInPage/usernameField')
@@ -34,6 +50,7 @@ TestObject skip = findTestObject('signInPage/skipLink')
 Mobile.tap(signIn, GlobalVariable.G_Timeout)
 Mobile.setText(username, GlobalVariable.G_resetAccountUsername, GlobalVariable.G_Timeout)
 Mobile.tap(nextBtn, GlobalVariable.G_Timeout)
+Mobile.waitForElementPresent(forgotPassword, 15)
 Mobile.tap(forgotPassword, GlobalVariable.G_Timeout)
 Mobile.tap(emailCodeText, GlobalVariable.G_Timeout)
 Mobile.setText(recoveryEmail,GlobalVariable.G_recoveryEmailId, GlobalVariable.G_Timeout)
@@ -50,8 +67,10 @@ Mobile.tap(nextButton, GlobalVariable.G_Timeout)
 Mobile.tap(skip, GlobalVariable.G_Timeout)
 
 if(Mobile.verifyElementVisible(inboxImg, GlobalVariable.G_Timeout, FailureHandling.OPTIONAL)) {
+	Mobile.takeScreenshot()
 	KeywordUtil.markPassed('Successfully user logged in')
 } else {
 	Mobile.takeScreenshot()
 	KeywordUtil.markFailed('Error while logging in')
 }
+Mobile.closeApplication()
