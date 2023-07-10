@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>10</initValue>
+      <name>G_Timeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>password for login scenario</description>
+      <initValue>'Automation@2023'</initValue>
+      <name>G_validPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'androidapp/yahoo.apk'</initValue>
+      <name>G_AppPath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>5</initValue>
+      <name>G_ShortTimeOut</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Username for login scenario</description>
+      <initValue>'androidmweb49@yahoo.com'</initValue>
+      <name>G_validUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test'</initValue>
+      <name>G_firstname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'BT'</initValue>
+      <name>G_lastname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'11'</initValue>
+      <name>G_day</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1990'</initValue>
+      <name>G_year</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Enter a valid contact number</description>
+      <initValue>''</initValue>
+      <name>G_phone</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'tanya123mahajan@gmail.com'</initValue>
+      <name>G_recoveryEmailId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>username for which user want to rest the password</description>
+      <initValue>'tabtest110@yahoo.com'</initValue>
+      <name>G_resetAccountUsername</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
